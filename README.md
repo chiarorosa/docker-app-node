@@ -1,4 +1,4 @@
-## Repositório para aplicação simples para base de uma imagem Docker
+# Repositório para aplicação simples para base de uma imagem Docker
 
 A aplicação inclui:
 
@@ -17,12 +17,12 @@ Agora para gerar a imagem docker, execute o comando:
 docker build -t chiarorosa/app-node:1.0
 ```
 
-# v1.0.3
+## v1.0.3
 
 Incluido docker-compose para coordenar o container. Na raiz, execute o comando:
 
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 <hr>

@@ -1,12 +1,15 @@
+# Documentação https://docs.docker.com/compose/compose-file/compose-file-v3/
 version: "3.9"
 services:
-  web:
+  servidor:
     image: chiarorosa/app-node:1.0.2
     container_name: servidor-web
     networks:
       - compose-bridge
     ports:
       - 8080:3000
+    #depends_on:
+    #  - serviceName
 
 networks:
   compose-bridge:
