@@ -2,7 +2,7 @@
 version: "3.9"
 services:
   servidor:
-    image: chiarorosa/app-node:1.0.2
+    image: chiarorosa/app-node:1.1
     container_name: servidor-web
     networks:
       - compose-bridge
